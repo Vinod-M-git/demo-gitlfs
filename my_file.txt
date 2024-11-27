@@ -1,0 +1,2869 @@
+hello 
+=============================================================
+import keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll madeimport keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll made
+===================================================================
+import keyword
+print(keyword.klist)
+
+del print
+
+inmutable
+x=10
+y=x
+x=x+10
+o\p-->x=20,y=10
+
+mutable
+l=[1,2,3]
+l=l1
+l[0]=10
+o\p-->l[10,2,3]l1[10,2,3]
+copy does not affect hereg
+
+
+hex(255)          0xff
+0xff             255
+
+oct(255)
+0o377
+
+bin(255)
+0b11111111
+
+int('110',2)
+6
+
+cmath.sin(x)
+..................
+cmath.cos(x)
+..................
+sum([1,2,34])---(true)
+sum(1,2)--(worng)
+
+import random
+dir(random)
+random.choice()
+random.shuffle()
+random.sample(x,2)
+random.sample(x,10,counts=[10,20,30,40])
+random.getrandbits(10)
+secrets.choice(x)
+                                      
+
+
+
+bitwise operator, integer, hex, oct, binary number, complex number, operator,  left shift, right shift, conversion, variables, list, tuples, chained comparisons, division--> floor, trunc, ceil, round, built-in modules
+random module, 
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import string
+import secrets
+s=string.ascii_letters+string.digits+"!@#$%^&*()"
+s
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+p=secrets.choice(s)
+p
+'0'
+p=[secrets.choice(s2) for i in range(10)]
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    p=[secrets.choice(s2) for i in range(10)]
+NameError: name 's2' is not defined
+p=[secrets.choice(s) for i in range(10)]
+p
+['H', 'Y', ')', 'Z', '&', 'o', 'O', 'O', 'h', 'r']
+p="".join(p)
+p
+'HY)Z&oOOhr'
+while True:
+    p="".join([secrets.choice(s) for i in range(10)])
+    x=any(i.islower() for i in p)
+    y=any(i.isupper() for i in p)
+    z=any(i.isdigit() for i in p)
+    if x+y+z==3:
+        break
+    p
+
+  
+Decimal creation, decimal type precision, rounding options, decimal with other python functions, fraction type, fraction construction, numerical accuracy, fraction conversion, limit denominator, strings
+
+string operations, ascii conversion, character code conversion, string methods, replace function, parsing text, string conversion, string concatenation, string sliceing, string split, string function
+
+reverse a string
+z[10:6:-1]
+=================================================================================================================================================================================
+
+EC2 Instance Storage
+High Availability and Scalability: ELB & ASG
+AWS Fundamentals: RDS + Aurora + Elastic ache
+Route 53
+Classic Solutions Architecture Discussions
+Amazon S3 Introduction
+Advanced Amazon S3
+Amazon S3 Security
+CloudFront & AWS Global Accelerator
+AWS Storage Extras
+
+
+
+
+
+
+
+
+
+EBS Overview
+EBS Hands On
+EBS Snapshots
+EBS Snapshots - Hands On
+AMI Overview
+AMI Hands On
+EC2 Instance Store
+EBS Volume Types
+EBS Multi-Attach
+EBS Encryption
+Amazon EFS
+Amazon EFS - Hands On
+EFS vs EBS
+EBS & EFS - Section Cleanup
+High Availability and Scalability
+Elastic Load Balancing (ELB) Overview
+Note: About the Classic Load Balancer (CLB)
+Application Load Balancer (ALB)
+Application Load Balancer (ALB) - Hands On - Part 1
+Application Load Balancer (ALB) - Hands On - Part 2
+Network Load Balancer (NLB)
+
+
+Gateway Load Balancer (GWLB),Elastic Load Balancer - Sticky Sessions, Elastic Load Balancer - Cross Zone Load Balancing, Elastic Load Balancer - SSL Certificates, Elastic Load Balancer - Connection Draining, Auto Scaling Groups (ASG), Auto Scaling Groups - Scaling Policies, Amazon RDS, RDS Read Replicas vs Multi AZ, RDS Custom for Oracle and Microsoft SQL Server, Amazon Aurora, Amazon Aurora - Advanced Concepts, RDS & Aurora - Backup and Monitoring, RDS Security, RDS Proxy, Elasticache
+
+
+ 
+Route 53 concepts-->Registering a domain, Creating our first records, EC2 Setup, TTL, CNAME vs Alias, Routing Policy types -->Simple, Weighted, Latency
+Route 53 - Health Checks, Routing Policy based on--> Failover, Geolocation, Geoproximity, IP-based, Multi Value, 3rd Party Domains & Route 53
+
+reduce
+application 
+wide range of application   
+we can not upload data directly glacier deep archive we can upload throw life cycle policy
+SMB (server message block )  with the help of this 
+
+
+
+
+S3, S3 Security: Bucket Policy, S3 Website, S3 Versioning, S3 Replication, S3 Storage Classes, S3 Lifecycle Rules (with S3 Analytics), S3 Requester Pays
+
+
+
+S3 Event Notifications, S3 Performance, S3 Batch Operations, S3 Storage Lens, S3 Encryption, S3 Default Encryption, S3 CORS, S3 MFA Delete, S3 Access Logs, S3 Pre-signed URLs, Glacier Vault Lock & S3 Object Lock, S3 Access Points, S3 Object Lambda, CloudFront-->ALB as an Origin, Geo Restriction, Price Classes, Cache Invalidation
+Git Tool Installation
+Working with Git Commands
+Working with GitHub Repositories
+==================================================================================================================================================================================
+
+
+A pull request (PR) in GitHub is a request to merge changes from one branch (often from a forked repository) into another branch of a repository (usually the main project branch).
+
+conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
+
+discussion is a feature that allows users to have conversations about various topics related to a project, such as ideas, feedback.
+
+search filters 4
+---> author 
+---> category
+---> is 
+---> label
+ 
+ 7 types of category
+view all discussion
+announcement---------> update from maintainers
+general-----> chat about anything and everything here
+ideas------> share ideas for new future
+Polls-------> take a vote from community
+Q&A------> ask the community for help
+show and tell-----> showoff something you'll made
